@@ -28,8 +28,8 @@ public class DataSeedService {
     @Autowired
     private StudentCourseRepository studentCourseRepository;
 
-    private static final int NUMBER_OF_STUDENTS = 100;
-    private static final int NUMBER_OF_COURSE = 2;
+    private static final int NUMBER_OF_STUDENTS = 2000;
+    private static final int NUMBER_OF_COURSE = 3;
 
     public void seedStudent() {
         Faker faker = new Faker(new Locale("in-ID"));
